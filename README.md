@@ -70,4 +70,3 @@ This project was built following the excellent tutorial by [machadop1407](https:
 
 ---
 
-*Let me know if you'd like me to generate a version with your actual GitHub repo, YouTube URL, or a banner image suggestion!*
