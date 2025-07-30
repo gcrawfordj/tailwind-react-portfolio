@@ -99,6 +99,24 @@
     @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+
+  /* Mobile backdrop blur support */
+  @supports (backdrop-filter: blur(1px)) {
+    .backdrop-blur-md {
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  }
+
+  /* Force hardware acceleration for mobile */
+  @media (max-width: 768px) {
+    nav {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+  }
 }
 
 @utility container {

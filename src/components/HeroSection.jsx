@@ -14,7 +14,7 @@ export const HeroSection = () => {
                 <span className="text-gradient ml-1 opacity-0 animate-fade-in-delay-2"> Crawford</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
               As an aspiring fullstack engineer, I'm passionate about building robust and user-friendly applications. 
               My journey into development is rooted in a strong background in IT and systems automation, 
               where I honed my problem-solving skills. I've primarily focused on Ruby on Rails, 
